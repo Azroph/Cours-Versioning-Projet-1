@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4 {
+    font-family: 'Cormorant Unicase', serif;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+    line-height: 1.6rem;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+@media (max-width: 767px) {
+    /* css qui s'appliquera de 0px à 767px = MOBILE */
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .ordi {
+        display: none;
+    }
+}
+@media (min-width: 767px) {
+    /* css qui s'appliquera au delà de 767px = Ordinateur + tablettes */
+    .container {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+    .mobile {
+        display: none;
+    }
+}
+a:hover {
+    text-decoration: underline;
+}
+#top {
+    display: inline-block;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(../img/up-arrow.png), rgba(255, 255, 255, 0.452);
+    background-position: center;
+    background-size: 80%;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+/*************** HEADER ***************/
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/perso.jpeg);
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 10px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header nav img {
+    height: 100px;
+    margin: 0 20px;
+}
+header section {
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    header {
+        background-position: left;
+    }
+}
+
+/*************** MAIN ***************/
+main {
+    color: rgb(79, 17, 34);
+}
+/*########### AVENTURE ############*/
+#aventure {
+    text-align: center;
+}
+#aventure ul {
+    display: flex;
+    text-align: left;
+}
+#aventure ul li {
+    padding: 0 30px;
+}
+#aventure ul li h4 {
+    color: rgba(79, 17, 34, 0.25);
+    font-size: 70px;
+    margin: 0;
+    display: inline-block;
+}
+#aventure ul li h3 {
+    margin-top: -55px;
+    margin-left: 15px;
+}
+@media (max-width: 767px) {
+    #aventure ul {
+        flex-direction: column;
+    }    
+}
+/*########### COMMUNAUTE ############*/
+#communaute {
+    border: 2px solid rgb(79, 17, 34);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#communaute ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 150px
+}
+#communaute ul li {
+    padding: 10px;
+}
+#communaute ul li img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#communaute ul li h3 {
+    margin: 0;
+}
+@media (max-width: 767px) {
+    #communaute ul {
+        justify-content: space-around;
+        gap: 0 20px;
+    }    
+    #communaute ul li img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+}
+/*########### rencontres ############*/
+#rencontres {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    gap: 40px;
+}
+#rencontres img {
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#rencontres article {
+    padding-right: 30px;
+}
+@media (max-width: 767px) {
+    #rencontres img {
+        width: 100%;
+        max-height: 260px;
+        object-fit: cover;
+    }    
+    #rencontres {
+        flex-direction: column;
+    }
+}
+/*************** FOOTER ***************/
+footer {
+    background: linear-gradient(rgba(79, 17, 34, 0.2), rgba(79, 17, 34, 0.2)), url(../img/gandalf.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+#letsgo {
+    padding: 70px 10px;
+}
+#letsgo a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+#letsgo a:hover {
+    background-color: white;
+    color: rgb(79, 17, 34);
+    text-decoration: none;
+}
+#pied {
+    background:rgb(79, 17, 34);
+    padding: 10px 0;
+}
+#pied .container {
+    display: flex;
+    justify-content: space-between;
+}
+#pied img {
+    height: 70px;
+}
+#pied ul {
+    text-align: left;
+}
+@media (max-width: 767px) {
+    footer {
+        background: none
+    }
+    #letsgo {
+        background: linear-gradient(rgba(79, 17, 34, 0.2), rgba(79, 17, 34, 0.2)), url(../img/gandalf.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+    }
+    
+}
