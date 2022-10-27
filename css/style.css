@@ -66,8 +66,22 @@ header {
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 0 10px;
+    padding: 0px;
 }
+
+header video {
+    width: 100vw;
+    position: relative;
+    padding: 0;
+}
+
+header div.header-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
 header nav ul {
     display: flex;
     flex-direction: row;
