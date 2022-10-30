@@ -15,7 +15,7 @@ Amélioration du site Lord Of The Ring en version [1.0.0](https://github.com/Azr
 ## Récupération du projet
 
 ```bash
-git clone [git@github.com](mailto:git@github.com):Azroph/Cours-Versioning-Projet-1.git
+git clone git@github.com:Azroph/Cours-Versioning-Projet-1.git
 cd Cours-Versioning-Projet-1
 ```
 
