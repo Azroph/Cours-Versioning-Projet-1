@@ -12,7 +12,7 @@
 <body>
     <header id="toppage">
         <!--Background VIDEO -->
-        <video autoplay muted>
+        <video id="video-header" autoplay muted>
             <source src="https://craftadv.maxhin.fr/seigneuranno.mp4" type="video/mp4">
         </video>
         <div class="header-container">
@@ -24,6 +24,7 @@
                     <li class="ordi"><a href="#rencontres">Des rencontres</a></li>
                     <li class="ordi"><a href="#letsgo">let's go</a></li>
                 </ul>
+                <span id="button-volume" class="muted"></span>
             </nav>
             <section class="container">
                 <h1>La communauté de l'anneau</h1>
@@ -135,5 +136,7 @@
         </section>
         <a href="#toppage" id="top"></a>
     </footer>
+
+    <script type="text/javascript" src="js/volume-control.js"></script>
 </body>
 </html>
