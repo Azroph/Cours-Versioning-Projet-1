@@ -79,7 +79,12 @@ header div.header-container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 
+}
+
+header nav {
+    position: relative;
 }
 
 header nav ul {
@@ -100,6 +105,29 @@ header section {
     flex-direction: column;
     justify-content: center;
 }
+
+span#button-volume {
+    position: absolute;
+    content: ' ';
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    opacity: 0.5;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
+
+.muted {
+    background-image: url("../img/muted.png");
+}
+
+.unmuted {
+    background-image: url("../img/unmuted.png");
+}
+
+
+
 @media (max-width: 767px) {
     header {
         background-position: left;
