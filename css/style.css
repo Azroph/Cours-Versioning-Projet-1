@@ -126,6 +126,24 @@ span#button-volume {
     background-image: url("../img/unmuted.png");
 }
 
+.m3{
+    margin: 3rem 0;
+}
+
+.titre_texte{
+    margin: auto;
+    display: flex;
+}
+
+.mid{
+    width: 50%;
+}
+.texte_mid{
+    padding-left: 2.5rem;
+}
+.msec{
+    margin: 6rem 0;
+}
 
 
 @media (max-width: 767px) {
