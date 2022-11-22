@@ -251,3 +251,51 @@ footer {
     }
     
 }
+
+/*************** PAGE CONTACT ***************/
+
+header div.header-container-contact {
+    color: white;
+    }
+
+#fcf-form-id {
+    text-align: center;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border: 2px solid maroon;
+    margin: 50px 25%;
+}
+
+.fcf-input-group textarea {
+    width: 350px;
+}
+
+#fcf-button {
+background: maroon;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold 15px 'Cormorant Unicase', serif;
+text-shadow:none;
+}
+
+#fcf-button:hover {
+    background: rgb(61, 0, 0);
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .fcf-input-group input {
+    max-width: 80%;
+    }
+    .fcf-input-group textarea {
+        max-width: 80%;
+    }
+}
+
+
+
+       
