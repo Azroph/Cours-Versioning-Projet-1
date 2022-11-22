@@ -126,6 +126,10 @@ span#button-volume {
     background-image: url("../img/unmuted.png");
 }
 
+.char {
+    transform: translateY(30px);
+    transition: transform .1s;
+}
 
 
 @media (max-width: 767px) {
