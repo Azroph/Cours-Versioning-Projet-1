@@ -64,6 +64,8 @@ A chaque ‘merge’ vers la branche ‘main’, un tag est appliqué pour défi
   - Amélioration de la page à propos
 - [1.4.0](https://github.com/Azroph/Cours-Versioning-Projet-1/releases/tag/1.4.0)
   - feature : Animation des textes section aventure page d'accueil
+- [1.4.1](https://github.com/Azroph/Cours-Versioning-Projet-1/releases/tag/1.4.1)
+  - fix : Correction des liens de bas de page
 
 ## Actions à réaliser par chacun
 
