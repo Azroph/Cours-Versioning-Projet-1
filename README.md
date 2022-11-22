@@ -62,7 +62,7 @@ A chaque ‘merge’ vers la branche ‘main’, un tag est appliqué pour défi
   - Liens vers pages contact et à propos
 - [1.3.1](https://github.com/Azroph/Cours-Versioning-Projet-1/releases/tag/1.3.1)
   - Amélioration de la page à propos
-- 1.4.x
+- [1.4.0](https://github.com/Azroph/Cours-Versioning-Projet-1/releases/tag/1.4.0)
   - feature : Animation des textes section aventure page d'accueil
 
 ## Actions à réaliser par chacun
